@@ -1,0 +1,17 @@
+{
+  "name": "mynordic-test-spa",
+  "version": "0.0.0-development",
+  "description": "This guide explains how to stand up a minimal SPA to end-to-end test the authorization-code flow with PKCE against an Azure AD B2C (CIAM) instance using `@azure/msal-browser`. Use it to verify that your tenant, user-flow/policy, and client registration are configured correctly before integrating with the production app.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "4.30.0",
+    "vite": "8.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2"
+  }
+}
